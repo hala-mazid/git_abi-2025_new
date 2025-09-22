@@ -12,7 +12,7 @@ Records a snapshot of your staged changes.
 ## git push
 Uploads your commits to the remote repository.
  now you cannot see this in the remote repository; so you need 
-## git pull
+
 
 ## git mv
 Renames or moves a file while keeping Git tracking.
