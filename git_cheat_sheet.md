@@ -1,12 +1,20 @@
-1. after creating a new repository in Github; copy the https link of it
+# Basic git commands
+## git clone
+ after creating a new repository in Github; copy the https link of it
 and use the clone command in your terminal:
 git clone https://   .git
-2.ls in the working directory should shows you the repository file
-3. cd to go to the repository
-4. git status >>> to show you the status of your local?
-5. git add file >>> to add the changes into the staging area
-6. git commit -m "any notes about the changes that you want a snapshot of" 
->> this is to do the snapshot; to transfer it to repository.
-7. now you cannot see this in the remote repository; so you need 
-git push
+## git status 
+ to show you the status of your local?
+## git add 
+ to add the changes into the staging area
+## git commit -m "any notes about the changes that you want a snapshot of" 
+Records a snapshot of your staged changes.
+## git push
+Uploads your commits to the remote repository.
+ now you cannot see this in the remote repository; so you need 
+## git pull
+
+## git mv
+Renames or moves a file while keeping Git tracking.
+
 
