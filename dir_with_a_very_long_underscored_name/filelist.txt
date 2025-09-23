@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x 2 wojtek users 4096 23. Sep 10:29 .
+drwxr-xr-x 8 wojtek users 4096 23. Sep 10:17 ..
+-rw-r--r-- 1 wojtek users  350 23. Sep 10:25 another_file.txt
+-rw-r--r-- 1 wojtek users    0 23. Sep 10:29 filelist.txt
+-rw-r--r-- 1 wojtek users   13 23. Sep 10:27 hello_file.txt

@@ -1,0 +1,232 @@
+cat mytext.md
+vi mytext.md
+ls
+cd ..
+cd subdir_with_long_name
+ce subdir_with_long_name/
+cd dir_with_a_very_long_underscored_name/
+cd git_abi-2025_new
+cd
+cat hello_file.txt
+vi hello_file.txt
+dc subdir_with_long_name
+mkdir subdir_with_long_name
+cat filelist.txt
+vi filelist.txt
+cat another_file.txt
+vi another_file.txt
+cat aFile.text
+vi aFile.text
+cd dirWithAVeryLongName/
+cd blub/
+mkdir AnotherDirectory
+mkdir blub
+touch bla file3
+cd dir3
+touch file2
+cd dir2
+mkdir dir2 dir3 dirWithAVeryLongName dir_with_a_very_long_underscored_name
+cd.
+touch file1
+cd dir1/
+mkdir dir1
+vi countLines.sh
+cat anotherfile.txt
+echo -e "This is another file.\n\nBla bla." >anotherfile.txt
+echo -e "This is another\nffile.\n\nBla bla." >anotherfile.txt
+touch anotherfile.txt
+rm hello_file.txt
+clear
+tree
+bash
+pwd
+echo $PATH
+ls -las
+ls -la
+git status
+echo "hallo again" >> hello_file.txt
+echo "hallo again" > hello_file.txt
+echo "hallo" > hello_file.txt
+rm hello_file.tzt
+cat hello_file.tzt
+echo "hallo" > hello_file.tzt
+echo "hallo"
+rm textfile.txt
+vi textfile.txt
+rm file_teat.txt
+cd Movies/iMovie\ Theater.theater/Archives\ -\ 188A420A-C8DB-4E26-B567-945F4F8CC/
+cd m
+cd dit
+git commit
+sudo chown -R $(whoami) ~/.config/fish && chmod -R u+rw ~/.config/fish
+
+fish
+
+mkdir -p ~/.config/fish
+chown -R $(whoami) ~/.config/fish
+
+ps -ef | grep cargo
+top -o cpu
+git push
+git commit -m "undo: back to previous version"
+cat git_cheat_sheet.md
+git checkout b9b130fa92ce86a3937b364375b37faf4e9bf35e -- git_cheat_sheet.md
+git checkout main
+cat it_cheat_sheet.md
+git checkout b9b130fa92ce86a3937b364375b37faf4e9bf35e
+git diff b9b130fa92ce86a3937b364375b37faf4e9bf35e -- "git_cheat_sheet.md"
+git diff 01e845bbddaaf747efe0d9b9a8e34ccdbfdba596 -- "git_cheat_sheet.md"
+git diff 01e845bbddaaf747efe0d9b9a8e34ccdbfdba596 -- git_cheat_sheet.md
+git log
+git commit -m "mistake: delete git pull line"
+git add git_cheat_sheet.md
+nano git_cheat_sheet.md
+vi git_cheat_sheet.md
+git commit -m "do the chanches in the markdown file; the title and git mv"
+git commit -m "Rename git_cheat_sheet.txt to markdown git_cheat_sheet.md"
+git mv git_cheat_sheet.txt git_cheat_sheet.md
+git commit -m "delete just for test"
+git add file_teat.txt
+git add deleted:    file_teat.txt
+git commit -m "try"
+git ststus
+nano file_teat.txt
+git config --global user.email "dfg@defg.com"
+git commit -m "new file"
+git add git_cheat_sheet.txt
+nano git_cheat_sheet.txt
+git clone https://github.com/hala-mazid/git_abi-2025_new.git
+git -v
+cat ~/.ssh/id_ed25519.pub
+ls ~/.ssh
+git commit -m "create new file with main git commands"
+rm git_cheat_shaat
+nano git_cheat_shaat
+cd git_abi-2025-2
+vi git_cheata_sheet
+vi git_cheat_sheet.txt
+ls -lasih
+cd cat ~/.ssh/id_something.pub
+cat ~/.ssh/id_something.pub
+~/.ssh/id_something.pub
+ls ~/.ssh/id_something.pub
+~/SSH
+git branch
+git log main
+git remote show origin
+git push -u origin main
+ssh -T git@github.com
+ssh-add -l
+ssh-add ~/.ssh/id_something
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+git remote add origin git@github.com:hala-mazid/git_abi-2025-2.git
+git remote remove origin
+git remote show
+git remote -v
+nano ~/.zshrc
+sudo chown halamazid:staff ~/.zshrc
+sudo chown halamazid:halamazid ~/.zshrc
+ls -hals ~
+ll
+git commit -m "Add test line to README"
+git add README.md
+echo "This is a test line" >> README.md
+hit status
+hit remote shoe
+git staus
+man ssh-keygen
+cat /Users/halamazid/.ssh/id_something
+cat /Users/halamazid/.ssh/id_something.pub
+cat /Users/halamazid/.ssh/
+cat id_something.pub
+ls /Users/halamazid/.ssh/
+ssh-keygen -t ed25519
+ped
+git --version
+ls git_abi-2025-2
+git clone https://github.com/hala-mazid/git_abi-2025-2.git
+quarto install tinytex
+open -a RStudio --args --verbose
+ls -lde ~/Library/Preferences
+ls -le ~/Library/Preferences | grep com.rstudio.desktop.plist
+ls -le ~/Library/Preferences
+ls -ld ~/Library/Preferences
+mv ~/Library/Preferences/com.rstudio.desktop.plist ~/Library/Preferences/com.rstudio.desktop.plist.bak
+ls -l ~/Library/Preferences/com.rstudio.desktop.plist
+spyder
+conda activate spyder-env
+activate spyder-env
+conda env list
+conda deactivate
+conda list
+conda install glob2
+conda install -c conda-forge glob
+conda install glob
+conda create -c conda-forge -n spyder-env spyder=5.2.2 numpy scipy pandas matplotlib sympy cython pyqtwebengine
+cona list
+conda deactive
+conda activate VirtualEnv
+conda create --name VirtualEnv
+conda info
+conda create -n dig spyder=5.1.5
+which conda
+source ~/anaconda3/bin/activate
+conda activate
+xcode-select --install
+conda install mamba -n base -c conda-forge
+sudo chown -R halamazid /Users/halamazid/.config/biopython
+sudo mkdir -p /Users/halamazid/.config/biopython
+chmod u+w ~/.config/biopython
+mkdir -p ~/.config/biopython
+spyder --new-instance --reset
+/opt/anaconda3/bin/jupyter_mac.command ; exit;
+/usr/local/mysql/bin/mysql --version
+ps aux | grep mysqld
+halamazid         2323   0.0  0.0 408636096   1424 s000  S+   11:07PM   0:00.00 grep mysqld
+mysql --version
+mysql -u root -p
+which mysql
+sudo rm -rf /Library/StartupItems/MySQLCOM
+sudo rm -rf /usr/local/var/mysql
+sudo rm -rf /usr/local/mysql
+sudo rm -f /etc/mysql/my.cnf
+sudo rm -f /etc/my.cnf
+ls -ld /usr/local/var/mysql
+ls -ld /usr/local/mysql
+open /usr/local/mysql/bin
+du -sh /usr/local/var/mysql
+sudo pkill mysqld
+sudo /usr/local/mysql/support-files/mysql.server stop
+export PATH="/usr/local/mysql/bin:$PATH"
+sudo /usr/local/mysql/support-files/mysql.server start
+./float.sh
+chmod u+x float.sh
+cd Bioinfo
+ls -R
+ls -t
+ls -a
+whoami
+./05_Let.sh
+cd 06.06.2025_Bash_Scripts/
+cd06.06.2025_Bash_Scripts
+chmod u+x 05_Let.sh
+ls lolo
+ls Test
+./04_external.sh lolo
+./04_external.sh my idea
+./04_external.sh OL ML
+./04_external.sh Maryam Hala
+./04_external.sh Maryam
+cd..
+cd Yousef
+./04_external.sh Yousef
+cd 06.06.2025_Bash_Scripts
+cd bioinfo
+cd HALA
+./04_external.sh HALA
+./04_external.sh
+chmod u+x 04_external.sh
+./03_Sub.sh
+chmod u+x 03_Sub.sh
+./02_var.sh
